@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproBugStrawberryShake.Shared", "ReproBugStrawberryShake.Shared\ReproBugStrawberryShake.Shared.csproj", "{779256FC-322D-4434-B157-21224EF4264B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproBugStrawberryShake.Client1", "ReproBugStrawberryShake.Client1\ReproBugStrawberryShake.Client1.csproj", "{679C67C8-4022-4A38-A39B-8BEF67E46133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproBugStrawberryShake.Client2", "ReproBugStrawberryShake.Client2\ReproBugStrawberryShake.Client2.csproj", "{219030EC-715E-48E6-ACE5-7F4382C1E2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproBugStrawberryShake.Run", "ReproBugStrawberryShake.Run\ReproBugStrawberryShake.Run.csproj", "{83796F87-740B-499E-A9D1-CF03F2288079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{779256FC-322D-4434-B157-21224EF4264B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779256FC-322D-4434-B157-21224EF4264B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779256FC-322D-4434-B157-21224EF4264B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779256FC-322D-4434-B157-21224EF4264B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679C67C8-4022-4A38-A39B-8BEF67E46133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679C67C8-4022-4A38-A39B-8BEF67E46133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679C67C8-4022-4A38-A39B-8BEF67E46133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679C67C8-4022-4A38-A39B-8BEF67E46133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219030EC-715E-48E6-ACE5-7F4382C1E2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219030EC-715E-48E6-ACE5-7F4382C1E2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219030EC-715E-48E6-ACE5-7F4382C1E2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219030EC-715E-48E6-ACE5-7F4382C1E2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83796F87-740B-499E-A9D1-CF03F2288079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83796F87-740B-499E-A9D1-CF03F2288079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83796F87-740B-499E-A9D1-CF03F2288079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83796F87-740B-499E-A9D1-CF03F2288079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

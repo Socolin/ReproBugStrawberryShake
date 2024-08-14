@@ -1,0 +1,21 @@
+{
+    "schema": "../ReproBugStrawberryShake.Shared/schema.graphql",
+    "documents": "**/*.graphql",
+    "extensions": {
+        "strawberryShake": {
+            "name": "SomeGraphQlClient2",
+            "namespace": "ReproBugStrawberryShake.Client2",
+            "url": "https://example.com/graphql.json",
+            "records": {
+                "inputs": true,
+                "entities": true
+            },
+            "transportProfiles": [
+                {
+                    "default": "Http",
+                    "subscription": "WebSocket"
+                }
+            ]
+        }
+    }
+}

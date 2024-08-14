@@ -1,0 +1,31 @@
+type Article {
+    id: ID!
+    title: String!
+    content: String!
+    publishDate: String
+    author: Author!
+}
+
+type Author {
+    id: ID!
+    name: String!
+    email: String!
+    articles: [Article!]!
+}
+
+type Query {
+    article(id: ID!): Article
+    articles: [Article!]!
+    author(id: ID!): Author
+    authors: [Author!]!
+}
+
+type Mutation {
+    createArticle(title: String!, content: String!, authorId: ID!): Article!
+    updateArticle(id: ID!, title: String, content: String): Article!
+    deleteArticle(id: ID!): Boolean!
+
+    createAuthor(name: String!, email: String!): Author!
+    updateAuthor(id: ID!, name: String, email: String): Author!
+    deleteAuthor(id: ID!): Boolean!
+}
